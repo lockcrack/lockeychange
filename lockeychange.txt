@@ -1,0 +1,14 @@
+@echo off
+title Lockeychange
+color 0A
+:menu
+@echo off
+echo
+echo                              ********************
+echo                               ***Lockeychange***
+echo                              ********************
+set /p userpass=Introduce the username:
+net user %userpass% *
+cls
+echo The password has been changed.
+pause
